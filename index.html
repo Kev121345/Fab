@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pedido de Noviazgo</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Bae, ¿quieres ser mi novio?</h1>
+    <h2>Antes de responder, tendras unos dias para pensar. Precisamente hasta el 14 de febrero</h2>
+    <button class="si" id="siButton" disabled onclick="mostrarRespuesta('si')">Sí</button>
+    <button id="noButton" disabled onclick="mostrarRespuesta('no')">No</button>
+    <p id="respuesta"></p>
+    <div id="cuentaRegresiva"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
